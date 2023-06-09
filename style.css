@@ -1,0 +1,458 @@
+@font-face {
+  font-family: PoppinsB;
+  src: url(assets/fonts/Poppins-Black.ttf);
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(assets/fonts/Poppins-Regular.ttf);
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0px;
+}
+
+.banner {
+  background-color: #2a593f;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  height: 55px;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  height: 35px;
+}
+
+.seperator {
+  display: flex;
+  width: 40%;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.menu a {
+  margin: 0px 10px;
+  font-family: Poppins;
+  color: white;
+}
+
+.donate {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-color: #689e80;
+  height: 30px;
+}
+
+.donate p {
+  color: white;
+  font-family: Poppins;
+  margin: 0px;
+}
+
+.main {
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 115px 0px;
+}
+
+.hero p {
+  font-family: PoppinsB;
+  font-size: 60px;
+  border-right: 5px solid black;
+  animation: cursor 0.4s step-end infinite alternate;
+}
+
+.green {
+  color: #2a593f;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 110px 0px;
+}
+
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  border: 2px solid #88c6a3;
+  width: 200px;
+  color: #88c6a3;
+  font-family: PoppinsB;
+  font-size: 20px;
+  margin: 0px 20px;
+  padding: 10px;
+}
+
+.flow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: #2a593f;
+}
+
+.boxes {
+  width: 350px;
+  height: 500px;
+  margin: 150px 70px 0px 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.boxes img {
+  height: 250px;
+  width: 250px;
+}
+
+.boxes h1 {
+  font-family: PoppinsB;
+  color: white;
+  margin: 0px;
+}
+
+.boxes p {
+  font-family: Poppins;
+  color: white;
+  text-align: center;
+}
+
+.address-button {
+  display: flex;
+  justify-content: center;
+  background-color: #2a593f;
+}
+
+.address {
+  display: flex;
+  background-color: white;
+  font-family: PoppinsB;
+  color: #2a593f;
+  margin: 50px 0px;
+  padding: 25px;
+  border-radius: 76px;
+}
+
+.address p {
+  margin: 0px 20px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+
+.content {
+  width: 50vw;
+}
+
+.content h1 {
+  font-family: PoppinsB;
+  color: #2a593f;
+}
+
+.content p {
+  font-family: Poppins;
+  color: #2a593f;
+}
+
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-left: 100px;
+}
+
+.image img {
+  width: 500px;
+  height: auto;
+}
+
+.title {
+  text-align: center;
+  font-family: PoppinsB;
+  color: #88c6a3;
+  font-size: 60px;
+}
+
+.title h1 {
+  margin: 0px;
+}
+
+.map img {
+  width: 100vw;
+  height: auto;
+}
+
+.join {
+  display: flex;
+  background-color: #2a593f;
+  margin: 0px;
+  justify-content: center;
+  font-family: PoppinsB;
+  color: white;
+  margin: 100px 0px;
+  font-size: 100px;
+}
+
+.community {
+  background-color: #2a593f;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.community h1 {
+  display: flex;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.twit {
+  width: 250px;
+  height: 250px;
+}
+.seperator2 {
+  width: 20vw;
+  height: auto;
+}
+
+.donation {
+  display: flex;
+  background-color: white;
+  font-family: PoppinsB;
+  color: #2a593f;
+  margin: 50px 0px;
+  padding: 25px;
+  border-radius: 76px;
+  justify-content: center;
+}
+
+.copybox {
+  display: flex;
+  justify-content: center;
+}
+
+.donation p {
+  margin: 0px 20px;
+  font-size: 50px;
+}
+
+.bitcoin {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  font-family: PoppinsB;
+  font-size: 100px;
+  color: white;
+}
+
+/* Animations */
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Responsive CSS */
+
+@media (max-width: 1500px) {
+  .boxes {
+    margin: 150px 20px 0px 20px;
+    width: 280px;
+    height: 450px;
+  }
+
+  .boxes img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .boxes h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .donate p {
+    font-size: 14px;
+  }
+
+  .hero p {
+    font-size: 45px;
+  }
+
+  .boxes img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .image img {
+    width: 250px;
+    height: auto;
+  }
+
+  .join {
+    font-size: 50px;
+  }
+
+  .donation p {
+    margin: 0px 20px;
+    font-size: 24px;
+  }
+
+  .bitcoin {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .seperator {
+    display: none;
+  }
+
+  .hero p {
+    font-size: 30px;
+  }
+  .donate p {
+    font-size: 10px;
+  }
+
+  .content {
+    width: 100vw;
+  }
+
+  .image img {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .menu {
+    display: none;
+  }
+
+  .donate p {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+  }
+
+  .boxes {
+    margin: 50px 20px 0px 20px;
+    width: 300px;
+    height: 500px;
+  }
+
+  .boxes img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .content h1 {
+    font-size: 50px;
+  }
+
+  .content p {
+    font-size: 10px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .join {
+    font-size: 30px;
+  }
+
+  .donation p {
+    margin: 0px 20px;
+    font-size: 14px;
+  }
+
+  .bitcoin {
+    font-size: 20px;
+  }
+
+  .twit {
+    width: 150px;
+    height: 150px;
+  }
+
+  .disc {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 620px) {
+  .menu {
+    display: none;
+  }
+
+  .donate p {
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+  }
+
+  .hero p {
+    border-right: none;
+  }
+
+  .hero {
+    text-align: center;
+  }
+
+  .button {
+    margin: 20px;
+  }
+
+  .address {
+    font-size: 12px;
+  }
+
+  .address p {
+    margin: 0px 5px;
+  }
+}
